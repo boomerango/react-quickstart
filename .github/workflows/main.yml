@@ -51,3 +51,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: build
+      - name: rebuild webapp
+        run: | 
+          curl --location --request POST 'https://qa-user-api.telemetrytv.com/webhooks/wh85fda67d0908116daabcfd50e84bde53' \
+          --header 'Content-Type: application/json'
+    
