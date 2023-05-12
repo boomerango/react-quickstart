@@ -10,4 +10,4 @@ function printString(n) {
 }
 
 // Example usage:
-printString(20*60*1000); // Prints "Hello, world!" every second for 5 seconds
+printString(2*60*1000); // Prints "Hello, world!" every second for 5 seconds
