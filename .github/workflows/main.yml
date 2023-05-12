@@ -22,6 +22,7 @@ jobs:
         uses: actions/checkout@master
         with:
           persist-credentials: false
+          node-version: 14.17
 
       - name: Get yarn cache
         id: yarn-cache
