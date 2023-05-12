@@ -30,6 +30,7 @@ jobs:
 
       - uses: actions/cache@v1
         with:
+          node-version: 14.17
           path: ${{ steps.yarn-cache.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/package.json') }} # TODO: Use yarn.lock instead, if that file exists in your repo.
           restore-keys: |
