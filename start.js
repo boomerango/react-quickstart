@@ -14,7 +14,7 @@ const num = parseInt(arg[0])
 if( Number.isInteger(num)){
     printString(num*60*1000); // Prints "Hello, world!" every second for 5 seconds
 } else{
- printString(2*60*1000);
+ printString(1*60*1000);
 }
 
 
