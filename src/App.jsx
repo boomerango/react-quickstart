@@ -11,7 +11,7 @@ export default function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
-        <h1>React Quickstart</h1>
+        <h1>React Quickstart guide</h1>
         <p>A template project deployed TTV webapps</p>
 
         <GHBadge username="MichaelCurrin" repoName="react-quickstart" />
