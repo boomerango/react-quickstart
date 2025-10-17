@@ -1,0 +1,9 @@
+{
+  "name": "react-quickstart",
+  "version": "0.0.1",
+  "description": "React Quickstart Template",
+  "mountPoints": {
+    "rootRender": "/"
+  },
+  "singlePageApplicationRouting": true
+}
