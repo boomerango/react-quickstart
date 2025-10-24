@@ -12,7 +12,7 @@ export default function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
         <h1>React Quickstart</h1>
-        <p>A template project deployed TTV webapps</p>
+        <p>A template project deployed to TelemetryOS Applications</p>
 
         <GHBadge username="MichaelCurrin" repoName="react-quickstart" />
       </header>
